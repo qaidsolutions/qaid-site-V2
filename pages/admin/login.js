@@ -24,7 +24,7 @@ export default function Login(){
         <h2 className="text-xl font-bold mb-4">Admin Login</h2>
         {err && <div className="text-red-600 mb-2">{err}</div>}
         <input className="w-full p-2 border mb-2" placeholder="username" value={u} onChange={(e)=>setU(e.target.value)} />
-        <input type="password" className="w-full p-2 border mb-4" placeholder="password" value={p} onChange={(e)=>setP(e.target.value}) />
+        <input type="password" className="w-full p-2 border mb-4" placeholder="password" value={p} onChange={(e)=>setP(e.target.value)} />
         <button className="w-full bg-qaidTeal text-white p-2 rounded">Sign In</button>
       </form>
     </div>
